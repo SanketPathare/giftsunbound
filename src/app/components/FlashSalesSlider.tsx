@@ -11,11 +11,10 @@ const FlashSalesSlider = () => {
     {
       id: 1,
       brand: "Domino's Pizza",
-      title: "Get 8 Slices",
+      title: "Get 8 Slice vfoogfo   kfjkkm kjgkfg",
       originalPrice: "₹ 530.00",
       salePrice: "₹ 500.00",
-      image: "BrandsImages/DominosPizza.webp",
-      bgColor: "bg-blue-600",
+      image: "BrandsImages/DominosPizza.png",
     },
     {
       id: 2,
@@ -41,7 +40,7 @@ const FlashSalesSlider = () => {
       title: "50% Off on Hotels",
       originalPrice: "₹ 299.00",
       salePrice: "₹ 120.00",
-      image: "BrandsImages/MakeMyTrip.webp",
+      image: "BrandsImages/MakeMyTrip.png",
       bgColor: "bg-blue-500",
     },
     {
@@ -146,7 +145,7 @@ const FlashSalesSlider = () => {
         const maxSlide = Math.max(0, salesData.length - slidesToShow);
         return prev >= maxSlide ? 0 : prev + 1;
       });
-    }, 1000); // Change slide every 3 seconds
+    }, 2000); // Change slide every 3 seconds
 
     return () => clearInterval(interval);
   }, [isAutoPlaying, slidesToShow, salesData.length]);
@@ -233,11 +232,11 @@ const FlashSalesSlider = () => {
                       alt={item.title}
                       className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
                     />
-                    <div className="absolute top-3 right-3">
+                    {/* <div className="absolute top-3 right-3">
                       <button className="bg-white bg-opacity-80 backdrop-blur-sm rounded-full p-2 hover:bg-opacity-100 transition-colors shadow-md">
                         <Heart className="w-4 h-4 text-gray-600 hover:text-red-500 transition-colors" />
                       </button>
-                    </div>
+                    </div> */}
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-4">
                       <div className="text-white font-bold text-lg">
                         {item.brand}
