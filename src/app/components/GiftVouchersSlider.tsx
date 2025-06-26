@@ -96,12 +96,11 @@ const GiftVouchersSlider = () => {
     };
 
     updateItemsPerView();
-    window.addEventListener('resize', updateItemsPerView);
-    return () => window.removeEventListener('resize', updateItemsPerView);
+    window.addEventListener("resize", updateItemsPerView);
+    return () => window.removeEventListener("resize", updateItemsPerView);
   }, []);
 
   const maxSlides = vouchers.length - itemsPerView + 1;
-
 
   useEffect(() => {
     if (!isHovered) {
@@ -243,8 +242,6 @@ const GiftVouchersSlider = () => {
           />
         ))}
       </div>
-
-      
     </div>
   );
 };
