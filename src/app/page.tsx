@@ -16,10 +16,12 @@ import Newsletter from './components/Newsletter';
 export default function Home() {
   return (
     <div className="font-sans">
+
       {/* Slider */}
       <div className="container mx-auto mt-8">
         <Slider />
       </div>
+
       {/* Main Content Area */}
       <main className="container mx-auto my-8">
         <FlashSalesSlider/>
