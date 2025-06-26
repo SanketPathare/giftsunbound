@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 const BrowseByCategory = () => {
@@ -14,21 +13,21 @@ const BrowseByCategory = () => {
     {
       id: 2,
       name: "Food",
-      image: "/api/placeholder/300/200", // Replace with actual image paths
+      image: "/api/placeholder/300/200", 
       icon: "🍕",
       href: "/categories/food",
     },
     {
       id: 3,
       name: "Entertainment",
-      image: "/api/placeholder/300/200", // Replace with actual image paths
+      image: "/api/placeholder/300/200",
       icon: "🎬",
       href: "/categories/entertainment",
     },
     {
       id: 4,
       name: "Travel",
-      image: "/api/placeholder/300/200", // Replace with actual image paths
+      image: "/api/placeholder/300/200", 
       icon: "✈️",
       href: "/categories/travel",
     },

@@ -2,7 +2,8 @@ import React from 'react';
 
 const PromoBanner = () => {
   return (
-    <div className="relative bg-gradient-to-r from-pink-600/90 to-pink-700/80 w-full overflow-hidden rounded-2xl ">
+    <div className='mx-10'>
+       <div className="relative bg-gradient-to-r from-pink-600/90 to-pink-700/80 w-full rounded-2xl ">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="grid grid-cols-4 gap-4 h-full">
@@ -33,6 +34,8 @@ const PromoBanner = () => {
         </div>
       </div>
     </div>
+    </div>
+   
   );
 };
 

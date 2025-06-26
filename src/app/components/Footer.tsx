@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Facebook, Instagram, Linkedin, Youtube, MapPin, Gift } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Youtube, MapPin } from 'lucide-react';
 import Image from 'next/image';
 
 const Footer = () => {
